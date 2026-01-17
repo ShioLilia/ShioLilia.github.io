@@ -441,6 +441,11 @@ main {
   padding: 20px;
   border: 1px solid #ccc;
   word-wrap: break-word;
+  /* 增加背景不透明度，使文字更易读 */
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 8px;
 }
 
 .blog-post-title-in a {
