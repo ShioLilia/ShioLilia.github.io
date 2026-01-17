@@ -407,7 +407,6 @@ main {
   line-height: 1.8;
   font-size: 15px;
   white-space: pre-line; /* 保留换行符，自动换行 */
-  text-indent: 2em; /* 每段首行缩进两个字符 */
 }
 
 /* Blog location */
@@ -464,8 +463,7 @@ main {
 .blog-post-content-in {
   font-size: 1em;
   white-space: pre-line; /* 保留换行符，自动换行 */
-  text-indent: 2em; /* 每段首行缩进两个字符 */
-  line-height: 1; /* 增加行距 */
+  line-height: 1.9; /* 增加行距 */
 }
 
 /* ==========================================
