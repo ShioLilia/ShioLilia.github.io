@@ -1,5 +1,10 @@
+        // 背景图片控制系统
+        // 检查是否使用inside.png背景
+        if (document.body.hasAttribute('data-inside-bg')) {
+            document.body.style.backgroundImage = 'url(/src/bg/inside.png)';
+        }
         // 检查页面是否使用自定义背景（跳过有 data-custom-bg 属性的页面）
-        if (!document.body.hasAttribute('data-custom-bg')) {
+        else if (!document.body.hasAttribute('data-custom-bg')) {
             // 获取当前月份
             const month = new Date().getMonth();
             let backgroundImage;
