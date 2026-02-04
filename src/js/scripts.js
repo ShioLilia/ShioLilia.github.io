@@ -1,4 +1,5 @@
-        // 背景图片控制系统
+// 背景图片控制系统
+document.addEventListener('DOMContentLoaded', function() {
         // 检查是否使用inside.png背景
         if (document.body.hasAttribute('data-inside-bg')) {
             document.body.style.backgroundImage = 'url(/src/bg/inside.png)';
@@ -23,6 +24,7 @@
             // 设置背景图片
             document.body.style.backgroundImage = `url(${backgroundImage})`;
         }
+});
       
       // 关于馆长模态框功能
       document.addEventListener('DOMContentLoaded', function() {

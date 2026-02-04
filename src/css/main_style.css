@@ -16,6 +16,7 @@ body {
   color: white;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* 通用链接样式 */
